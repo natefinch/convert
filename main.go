@@ -109,6 +109,6 @@ jpg (jpeg), or png input and output.
 		fmt.Fprintf(os.Stderr, format, f.Name, f.Usage)
 	})
 
-	fmt.Fprintln(os.Stderr, "\nExample: (convert from png to jpg and constrain to max 1024 on either side)\n\n  convert foo.png foo.jpg -s 1024")
+	fmt.Fprintln(os.Stderr, "\nExample: (convert from png to jpg and constrain to max 1024 on either side)\n\n  convert -s 1024 foo.png foo.jpg")
 	os.Exit(1)
 }

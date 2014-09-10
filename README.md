@@ -20,6 +20,6 @@ Options:
 
 Example: (convert from png to jpg and constrain to max 1024 on either side)
 
-  convert foo.png foo.jpg -s 1024
+  convert -s 1024 foo.png foo.jpg
 
 ```
